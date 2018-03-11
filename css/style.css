@@ -75,11 +75,27 @@ article {
 p {
 margin-top: 1em;}
 
+/* Links */
 a {
   text-decoration: none;
 }
 
-a:link { color:#FBC02D; } /* unvisited */
-a:visited { color:#FF5722; } /* visited */
-a:hover { color:#FFEB3B; } /* mouse over */
-a:active { color:#FF9800; } /* selected */
+/* unvisited */
+a:link { 
+  color:#FBC02D; 
+} 
+
+/* visited */
+a:visited { 
+  color:#FF5722; 
+}
+
+/* mouse over */
+a:hover { 
+  color:#FFEB3B; 
+} 
+
+/* selected */
+a:active { 
+  color:#FF9800; 
+} 
